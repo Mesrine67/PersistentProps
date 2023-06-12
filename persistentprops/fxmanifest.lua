@@ -8,3 +8,8 @@ description 'Persistent Hat And Glasses'
 client_scripts {
     'client.lua'
 }
+
+
+server_scripts {
+    'printer.lua'
+}
