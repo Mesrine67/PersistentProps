@@ -34,6 +34,11 @@ PersistentProps, the script that turns wardrobe malfunctions into a grand specta
 The resource must be named "persistentprops" for the kvs to work.
 </p>
 
+
+<h1 align="center">Demonstration 📺</h1>
+
 <p align="center">
-<img src="https://cdn.discordapp.com/attachments/1016677684140576859/1117886028770979851/props.png" alt="Chat Commands" width="800" height="auto">
+  <a href="https://www.youtube.com/watch?v=iK1dC__C0eE">
+    <img src="https://img.youtube.com/vi/iK1dC__C0eE/0.jpg" alt="Demonstration" width="600">
+  </a>
 </p>
