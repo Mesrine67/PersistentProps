@@ -29,7 +29,7 @@ RegisterCommand("propson", function(source, args, rawCommand)
     if isPropsFunctionalityEnabled then
         TriggerEvent('chat:addMessage', {
             color = {255, 0, 0}, -- Red
-            args = {'[Props]', 'Persistent props functionality is already enabled.'}
+            args = {'[Props]', 'Persistent props functionality is already ^2enabled.'}
         })
         return
     end
@@ -46,7 +46,7 @@ RegisterCommand("propsoff", function(source, args, rawCommand)
     if not isPropsFunctionalityEnabled then
         TriggerEvent('chat:addMessage', {
             color = {255, 0, 0}, -- Red
-            args = {'[Props]', 'Persistent props functionality is already disabled.'}
+            args = {'[Props]', 'Persistent props functionality is already ^1disabled.'}
         })
         return
     end
