@@ -58,3 +58,15 @@ RegisterCommand("propsoff", function(source, args, rawCommand)
         args = {'[Props]', 'Persistent Glasses And Hats: ^1DISABLED'}
     })
 end)
+
+local lastped = nil
+
+CreateThread(function()
+    while true do
+        if PlayerPedId() ~= lastped then
+            lastped = PlayerPedId()
+            SetPedCanLosePropsOnDamage(lastped, not isPropsFunctionalityEnabled)
+        end
+        Wait(500)
+    end
+end)
