@@ -1,8 +1,8 @@
 fx_version 'cerulean'
 game 'gta5'
 author 'TayMcKenzieNZ'
-description 'Persistent Hat And Glasses'
-
+description 'Persistent Props By TayMcKenzieNZ'
+version '1.0.1'
 
 
 client_scripts {
